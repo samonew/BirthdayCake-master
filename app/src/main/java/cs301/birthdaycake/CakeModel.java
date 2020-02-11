@@ -7,4 +7,8 @@ public class CakeModel {
    boolean touch = false;
    int x;
    int y;
+   int touchX = 0;
+   int touchY = 0;
+
+
 }
