@@ -160,7 +160,7 @@ public class CakeView extends SurfaceView {
             canvas.drawLine(cakes.x, (cakes.y + 50), cakes.x, (cakes.y + 200), wickPaint);
         }
 
-        canvas.drawText("X: "+cakes.touchX+" Y: "+cakes.touchY, 0, 800, blood);
+        canvas.drawText("X: "+cakes.x+" Y: "+cakes.y, 0, 800, blood);
 
     }//onDraw
 
