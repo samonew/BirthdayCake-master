@@ -28,9 +28,9 @@ public class CakeView extends SurfaceView {
     public static final float cakeWidth = 1200.0f;
     public static final float layerHeight = 200.0f;
     public static final float frostHeight = 50.0f;
-    public static final float candleHeight = 300.0f;
+    public static final float candleHeight = 150.0f;
     public static final float candleWidth = 40.0f;
-    public static final float candle2Height = 300.0f;
+    public static final float candle2Height = 150.0f;
     public static final float candle2Width = 40.0f;
     public static final float wickHeight = 30.0f;
     public static final float wickWidth = 6.0f;
