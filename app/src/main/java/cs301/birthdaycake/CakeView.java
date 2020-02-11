@@ -9,6 +9,8 @@ import android.view.SurfaceView;
 
 public class CakeView extends SurfaceView {
 
+    CakeModel cakes = new CakeModel();
+
     /* These are the paints we'll use to draw the birthday cake below */
     Paint cakePaint = new Paint();
     Paint frostingPaint = new Paint();
@@ -147,6 +149,10 @@ public class CakeView extends SurfaceView {
         drawCandle2(canvas,cakeLeft + cakeWidth/2 - candleWidth/2 + 50, cakeTop);
 
     }//onDraw
+
+    public CakeModel getCakes(){
+        return cakes;
+    }
 
 }//class CakeView
 

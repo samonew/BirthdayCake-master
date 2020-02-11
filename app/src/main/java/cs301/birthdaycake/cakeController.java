@@ -14,7 +14,7 @@ public class cakeController implements View.OnClickListener, CompoundButton.OnCh
     public cakeController(CakeView cake){
 
         cakeView = cake;
-        cakecake = cakeView.getCake();
+        cakecake = cakeView.getCakes();
 
 
     }
@@ -24,7 +24,6 @@ public class cakeController implements View.OnClickListener, CompoundButton.OnCh
 
         cakecake.areLit = false;
         cakeView.invalidate();
-
 
     }
 
